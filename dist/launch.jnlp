@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<jnlp codebase="file:/C:/Users/Kickaha/Documents/Projects/NetBeansProjects/MorseEncoder/dist/" href="launch.jnlp" spec="1.0+">
+    <information>
+        <title>MorseEncoder</title>
+        <vendor>Kickaha</vendor>
+        <homepage href=""/>
+        <description>MorseEncoder</description>
+        <description kind="short">MorseEncoder</description>
+    <offline-allowed/>
+</information>
+    <update check="background"/>
+    <security>
+<all-permissions/>
+</security>
+    <resources>
+        <j2se version="1.8+"/>
+        <jar href="MorseEncoder.jar" main="true"/>
+    </resources>
+    <application-desc main-class="morseencoder.MorseFrame">
+    </application-desc>
+</jnlp>
